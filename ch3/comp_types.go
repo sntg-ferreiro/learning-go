@@ -164,9 +164,9 @@ func maps_ex() {
 	fmt.Println(len(nilMap))
 
 	teams := map[string][]string{
-		"Orcas":   []string{"Fred", "Ralph", "Bijou"},
-		"Lions":   []string{"Sarah", "Peter", "Billie"},
-		"Kittens": []string{"Waldo", "Raul", "Ze"},
+		"Orcas":   {"Fred", "Ralph", "Bijou"},
+		"Lions":   {"Sarah", "Peter", "Billie"},
+		"Kittens": {"Waldo", "Raul", "Ze"},
 	}
 
 	fmt.Println("teams: ", teams)
